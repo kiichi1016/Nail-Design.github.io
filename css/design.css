@@ -1,0 +1,127 @@
+/* 全体 */
+#design{
+	width: 1000px;
+	margin-top: 40px;
+}
+
+/* 上部 */
+#thumb_area{
+	height: 215px;
+	width: 1000px;
+	margin: 40px 0 auto 0;
+}
+
+#thumb_prev{
+	width: 30px;
+	float: left;
+}
+
+#thumb_next{
+	width: 30px;
+	float: right;
+}
+
+
+#thumb{
+	width: 940px;
+	float: left;
+	overflow: hidden;
+}
+
+#thumb ul{
+	width: 1880px;
+	padding: 0 5px;
+}
+
+#thumb ul li {
+	width: 300px;
+	height: 200px;
+	float: left;
+	margin: 0 5px;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+#thumb ul li:after{
+	content: url(../lesson4/thumb_bg.png);
+	position: relative;
+	width: 100%;
+	top: -200px;
+	left: 0;
+}
+
+#thumb ul li img{
+	width: 100%;
+	height: 100%;
+}
+
+/* 中央部 */
+#photo_area{
+	width: 840px;
+	margin: 40px auto 0 auto;
+}
+
+#photo_prev{
+	width: 30px;
+	float: left;
+}
+
+#photo_next{
+	width: 30px;
+	float: right;
+}
+
+#photo{
+	width: 780px;
+	float: left;
+	overflow: hidden;
+}
+
+#photo ul {
+	width: 4680px;
+	margin-left: 0;
+}
+
+#photo ul li {
+	width: 780px;
+	height: 520px;
+	overflow: hidden;
+	float: left;
+	cursor: pointer;
+}
+
+#phto ul li img{
+	width: 100%;
+}
+
+/* 下部 */
+
+#description_area{
+	width: 800px;
+	margin:40px auto;
+	padding: 40px 0;
+	background: url(../lesson4/description_bg.png);
+	background-size: 100% 100%;
+	overflow: hidden;
+}
+
+#description{
+	width: 4800px;
+}
+
+#description .text{
+	width: 800px;
+	float: left;
+}
+
+#description .text p {
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+#description .text p.index{
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 40px;
+}
